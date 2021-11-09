@@ -15,8 +15,8 @@
 //#include <EEPROM.h>
 #include <math.h>
 
-#include "/home/soultaker/Arduino/AceBox/pitches.h"      // Ноты
-#include "/home/soultaker/Arduino/AceBox/acebox_logo.c"  // Логотип
+#include "/home/kasito/Arduino/AceBox/pitches.h"      // Ноты
+#include "/home/kasito/Arduino/AceBox/acebox_logo.c"  // Логотип
 
 /*** Настройка выводов микроконтроллера ***/
 #define PIN_MD_CHX   A1 // Канал X металлоискателя

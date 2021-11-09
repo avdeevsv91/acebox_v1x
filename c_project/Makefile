@@ -2,7 +2,7 @@ DEVICE  = atmega328
 
 CLOCK   = 16000000
 
-AVRDUDE = /home/avdeevsv91/.arduino15/hardware/tools/avr/bin/avrdude -C/home/avdeevsv91/.arduino15/hardware/tools/avr/etc/avrdude.conf -patmega328p -carduino -P/dev/ttyUSB9 -b57600 -D
+AVRDUDE = /home/kasito/.arduino15/hardware/tools/avr/bin/avrdude -C/home/kasito/.arduino15/hardware/tools/avr/etc/avrdude.conf -patmega328p -carduino -P/dev/ttyUSB9 -b57600 -D
 OBJECTS = main.o
 
 COMPILE = avr-gcc -Wall -Os -fexec-charset=cp1251 -std=c99 -DF_CPU=$(CLOCK) -mmcu=$(DEVICE)
