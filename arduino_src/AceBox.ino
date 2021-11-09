@@ -2,7 +2,7 @@
   AceBox (version 0.1)
   Author: Avdeev Sergey
   E-Mail: avdeevsv91@gmail.com
-  URL: https://github.com/avdeevsv91/acebox_v1x
+  URL: https://github.com/kasitoru/acebox_v1x
 */
 
 #define LCD_HARDWARE_SPI   // Использовать аппаратный SPI для дисплея
